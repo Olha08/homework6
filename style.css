@@ -1,0 +1,29 @@
+.wrapper{
+    width:500px;
+    height:500px;
+    position: relative;
+    border:5px solid red;
+    margin:0 auto;
+}
+
+
+#item{
+    width:200px;
+    height:55px;
+    background-color: #000000ad;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+#del{
+    position: absolute;
+    background-color: red;
+    width: 38px;
+    height: 56px;
+    border-radius: 9px;
+    top: 0;
+    right: -1px;
+    border-color:transparent;
+    z-index: 9999;
+}
